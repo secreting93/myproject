@@ -9,4 +9,9 @@ class Object
 		_description = Description;
 	}
 	
+	public string GetInfo()
+	{
+		return "Название"_title + " Описание" _description;
+	}
+	
 }
