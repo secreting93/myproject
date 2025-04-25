@@ -8,4 +8,9 @@ class Player : Unit
 		_maxPoints = maxPoints;
 		_points = 0;
 	}
+
+	public void GetPoints(int points)
+	{ 
+		_points = points; 
+	}
 }
